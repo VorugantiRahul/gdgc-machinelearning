@@ -1,0 +1,29 @@
+{
+  "num_train": 84713,
+  "num_test": 33161,
+  "num_features": 143,
+  "models": [
+    "LightGBM",
+    "XGBoost",
+    "CatBoost"
+  ],
+  "oof_macro_f1": {
+    "LightGBM": 0.99189,
+    "XGBoost": 0.98911,
+    "CatBoost": 0.9871,
+    "Ensemble_Raw": 0.99121,
+    "Ensemble_Tuned": 0.99121
+  },
+  "optimal_weights": {
+    "Benign": 0.25,
+    "Availability": 0.25,
+    "Reconnaissance": 0.25,
+    "Spoofing": 0.25
+  },
+  "test_predictions_distribution": {
+    "Benign": 10520,
+    "Availability": 10391,
+    "Reconnaissance": 7090,
+    "Spoofing": 5160
+  }
+}

@@ -1,0 +1,24 @@
+# Python & Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Datasets (large files excluded from git)
+train.csv
+test.csv
+sample_submission.csv
+*.zip
+*.tar.gz
+
+# Scratch and external references
+friend_repo/
+scratch/
+.system_generated/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
